@@ -1,0 +1,180 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "inbest",
+    "dateExported": "2023-02-10T13:01:20.803Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "18408c54-4c48-46ac-b671-b0bfa57badce",
+            "colId": "c35be166-ae88-4d94-8e20-32d2f5f0b0e9",
+            "containerId": "",
+            "name": "API-Create-RFQ-Home",
+            "url": "http://localhost:3100/create_rfq_home",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-02-07T13:22:40.099Z",
+            "modified": "2023-02-08T06:59:19.011Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"client_id\": \"xxxxxxxxx \",\n  \"client_name\": \"sudeb mukherjee\",\n  \"address\": \"EN Block, Sector V, Bidhannagar, West Bengal 700091\",\n  \"mobile_number\": \"9865412541\",\n  \"carpet_area\": \"1500\",\n  \"rate_per_sqft\": \"2500\",\n  \"risk_address\": \"EN Block, Sector V, Bidhannagar, West Bengal 700091\",\n  \"pin_code\": \"700091\",\n  \"age_of_building\": 6,\n  \"building_construction_cost\": 8000000,\n  \"furniture\": [\n    {\n      \"item_name\": \"almira\",\n      \"item_age\": 6,\n      \"item_price\": 2550\n      \n    },\n    {\n      \"item_name\": \"table\",\n      \"item_age\": 6,\n      \"item_price\": 1200\n      \n    }\n  ],\n  \"electronic\": [\n    {\n      \"item_name\": \"table fan\",\n      \"item_age\": 6,\n      \"item_price\": 600\n      \n    },\n    {\n      \"item_name\": \"led bulb\",\n      \"item_age\": 6,\n      \"item_price\": 800\n      \n    }\n    \n  ],\n  \"rm_id\": \"yyyyyyyyyyyyyyyyyyyyy\",\n  \"others\":\"others\"\n  \n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "8c25b3e1-5eaf-443a-a900-665720fdead2",
+            "colId": "c35be166-ae88-4d94-8e20-32d2f5f0b0e9",
+            "containerId": "",
+            "name": "API-Create-RFQ-Cpm",
+            "url": "http://localhost:3100/create_rfq_cpm",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-02-08T08:04:30.037Z",
+            "modified": "2023-02-08T08:09:46.008Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"client_id\": \"xxxxxxxxx \",\n  \"client_name\": \"sudeb mukherjee\",\n  \"address\": \"EN Block, Sector V, Bidhannagar, West Bengal 700091\",\n  \"projec_type\":\"construction\",\n  \"equipment_site_address\":\"ddddwwww\",\n  \"equipment_type\":\"machine\",\n  \"equipment_imported\":\"yes\",\n  \"equipment_sum_insured\":20000000,\n  \"equipment_cover_require\":\"yes\",\n  \"floater_cover\":\"yes\",\n  \"stfi_require\":\"yes\",\n  \"hypothecation\":\"yes\",\n  \"others\":\"eeeeeeeeee eeeeeeeeeerr\",\n  \"rm_id\":\"uuuuuuuuuuuuuuuuuuu\",\n  \"rm_name\":\"sunil ghosh\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "f36e2aa9-e58d-49b5-b833-e206083ac969",
+            "colId": "c35be166-ae88-4d94-8e20-32d2f5f0b0e9",
+            "containerId": "",
+            "name": "API-Create-RFQ-Fire",
+            "url": "http://localhost:3100/create_rfq_fire",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-02-08T09:24:16.519Z",
+            "modified": "2023-02-08T09:32:36.372Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"client_id\": \"xxxxxxxxx \",\n  \"client_name\": \"sudeb mukherjee\",\n  \"phone_number\":\"87878787877\",\n  \"address\": \"EN Block, Sector V, Bidhannagar, West Bengal 700091\",\n  \"pincode\":\"455455\",\n  \"building_value\":7878787,\n  \"machine_and_plant_value\":12121,\n  \"bharat_sukhsham_laghu\":\"sukhsham\",\n  \"nature_of_occupancy\":\"rrr\",\n  \"raw_material_used\":\"ee\",\n  \"finished_goods\":\"ee\",\n  \"machinery_cost\":8888,\n  \"raw_material_cost\":8888,\n  \"finished_cost\":8888,\n  \"cash_kept_in_till\":454545,\n  \"cash_kept_in_transit\":445,\n  \"other\":\"dddd\",\n  \"rm_id\":\"uuuuuuuuuuuuuuuuuuu\",\n  \"rm_name\":\"sunil ghosh\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "f75fa0b7-0f3e-4487-bb1d-6524ce782144",
+            "colId": "c35be166-ae88-4d94-8e20-32d2f5f0b0e9",
+            "containerId": "",
+            "name": "API-Create-RFQ-Burglary",
+            "url": "http://localhost:3100/create_rfq_burglary",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2023-02-08T10:03:04.882Z",
+            "modified": "2023-02-08T10:04:06.028Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"client_id\": \"xxxxxxxxx \",\n  \"client_name\": \"sudeb mukherjee\",\n  \"phone_number\":\"87878787877\",\n  \"address\": \"EN Block, Sector V, Bidhannagar, West Bengal 700091\",\n  \"pincode\":\"455455\",\n  \"building_value\":7878787,\n  \"machine_and_plant_value\":12121,\n  \"bharat_sukhsham_laghu\":\"sukhsham\",\n  \"nature_of_occupancy\":\"rrr\",\n  \"raw_material_used\":\"ee\",\n  \"finished_goods\":\"ee\",\n  \"machinery_cost\":8888,\n  \"raw_material_cost\":8888,\n  \"finished_cost\":8888,\n  \"cash_kept_in_till\":454545,\n  \"cash_kept_in_transit\":445,\n  \"other\":\"dddd\",\n  \"rm_id\":\"uuuuuuuuuuuuuuuuuuu\",\n  \"rm_name\":\"sunil ghosh\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "0639ad25-b540-4988-9f4e-3d2567252314",
+            "colId": "c35be166-ae88-4d94-8e20-32d2f5f0b0e9",
+            "containerId": "",
+            "name": "API-Create-RFQ-Personal-Accident",
+            "url": "http://localhost:3100/create_rfq_personal_accident",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2023-02-09T07:52:15.647Z",
+            "modified": "2023-02-09T08:01:13.216Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"client_id\": \"xxxxxxxxx788\",\n  \"client_name\": \"sudeb mukherjee\",\n  \"client_dob\":\"10-12-1990\",\n  \"address\": \"EN Block, Sector V, Bidhannagar, West Bengal 700091\",\n  \"sum_insured\":100000,\n  \"phone_number\":\"87878787877\",\n  \"client_email\":\"test@email.com\",\n  \"occupation\":\"business\",  \n  \"nominee_name\":\"mukesh ambani\",\n  \"nominee_dob\":\"10-12-1980\",\n  \"nominee_relation\":\"father\",\n  \"annual_income\":\"4500000\",\n  \"other_information\":\"uuuuuuuuuu\",\n  \"rm_id\":\"uuuuuuuuuuuuuuuuuuu\",\n  \"rm_name\":\"sunil ghosh\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "138d7b2a-dd79-40f0-aeda-e21b6aa6d2ef",
+            "colId": "c35be166-ae88-4d94-8e20-32d2f5f0b0e9",
+            "containerId": "",
+            "name": "API-Create-RFQ-Health",
+            "url": "http://localhost:3100/create_rfq_health",
+            "method": "POST",
+            "sortNum": 80000,
+            "created": "2023-02-09T10:00:25.855Z",
+            "modified": "2023-02-09T10:11:15.917Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"client_id\": \"xxxxxxxxx788\",\n  \"client_name\": \"sudeb mukherjee\",\n  \"insurance_type\":\"portablity\",\n  \"risk_exp_date\":\"10-11-2023\",\n  \"client_dob\":\"10-12-1990\",\n  \"address\": \"EN Block, Sector V, Bidhannagar, West Bengal 700091\",\n  \"sum_insured\":100000,\n  \"pre_existing_disease\":\"no\",\n  \"hieght\":\"5.8\",\n  \"weight\":\"63\",\n  \"occupation\":\"business\",\n  \"mobile_number\":\"87878787877\",\n  \"client_email\":\"test@email.com\",\n  \"nominee_name\":\"mukesh ambani\",\n  \"nominee_dob\":\"10-12-1980\",\n  \"nominee_relation\":\"father\",\n  \"other_information\":\"uuuuuuuuuu\",\n  \"any_major_operations_in_last_three_year\":\"xxxxxxx xxxxx\",\n  \"personal_habit\":\"smoking\",\n  \"regular_medicine_name\":\"yyyy iii ppp rrre eee\",\n  \"rm_id\":\"uuuuuuuuuuuuuuuuuuu\",\n  \"rm_name\":\"sunil ghosh\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "6e525134-37dc-4a13-994f-1354c1dc67ae",
+            "colId": "c35be166-ae88-4d94-8e20-32d2f5f0b0e9",
+            "containerId": "",
+            "name": "API-Create-RFQ-Product-Liablity",
+            "url": "http://localhost:3100/create_rfq_product_liability",
+            "method": "POST",
+            "sortNum": 100000,
+            "created": "2023-02-10T09:36:09.282Z",
+            "modified": "2023-02-10T09:42:10.004Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"client_id\": \"xxxxxxxxx788\",\n  \"client_name\": \"sudeb mukherjee\",\n  \"address\": \"EN Block, Sector V, Bidhannagar, West Bengal 700091\",\n  \"item_to_be_covered\":\"xxx\",\n  \"total_turnover_for_last_year\":\"2555\",\n  \"geo_location\":\"location\",\n  \"last_five_year_claim_history\":\"na\",\n  \"no_of_years_in_trade\":\"5\",\n  \"insured_product\":\"machine x\",\n  \"sum_insured\":\"15000\",\n  \"period_of_insurance\":\"5\",\n  \"other_information\":\"dddddd\",\n  \"rm_id\":\"uuuuuuuuuuuuuuuuuuu\",\n  \"rm_name\":\"sunil ghosh\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "4422965d-6c2d-4cf8-84d2-e97f2b596ec4",
+            "colId": "c35be166-ae88-4d94-8e20-32d2f5f0b0e9",
+            "containerId": "",
+            "name": "AI-create-RFQ-Travel",
+            "url": "http://localhost:3100/create_rfq_travel",
+            "method": "POST",
+            "sortNum": 110000,
+            "created": "2023-02-10T10:33:49.554Z",
+            "modified": "2023-02-10T11:12:54.724Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"client_id\": \"xxxxxxxxx788\",\n  \"client_name\": \"sudeb mukherjee\",\n  \"traveling_country\":\"usa\",\n  \"traveling_start_date\":\"10-05-2023\",\n  \"traveling_end_date\":\"20-05-2023\",\n  \"traveling_type\":\"xx\",\n  \"email_address\":\"sss@gg.com\",\n  \"mobile_number\":\"7878787\",\n  \"dob\":\"sadad\",\n  \"pasport_details\":\"asdasdas\",\n  \"travelling_policy_duration\":\"ahsdahd ahdad a\",\n  \"cover\":\"xxxxxxxxxx\",\n  \"other_information\":\"rrrrrrrrrr\",\n  \"rm_id\": \"uuuuuuuuuuuuuuuuuuu\",\n  \"rm_name\": \"sunil ghosh\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "e2c17e6e-167b-4191-867d-c57735184302",
+            "colId": "c35be166-ae88-4d94-8e20-32d2f5f0b0e9",
+            "containerId": "",
+            "name": "API-Create-RFQ-Two-Wheeler",
+            "url": "http://localhost:3100/create_rfq_two_wheeler",
+            "method": "POST",
+            "sortNum": 120000,
+            "created": "2023-02-10T12:47:15.070Z",
+            "modified": "2023-02-10T12:59:39.630Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"client_id\": \"xxxxxxxxx788\",\n  \"client_name\": \"sudeb mukherjee\",\n  \"registration_number\":\"454545\",\n  \"date_of_registration\":\"10-05-2020\",\n  \"vehicle_price\":\"HM45457\",\n  \"idv\":\"454545\",\n  \"zone\":\"x\",\n  \"cc_of_vehicle\":\"1200\",\n  \"ev\":\"no\",\n  \"if_any_claim_has_taken_prev\":\"no\",\n  \"others\":\"xxxxxxxxxxxxx\",\n  \"rm_id\": \"uuuuuuuuuuuuuuuuuuu\",\n  \"rm_name\": \"sunil ghosh\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
